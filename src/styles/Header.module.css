@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
+}
+
+.flex {
+    flex: 1;
 }
 
 .icon {
@@ -26,10 +29,27 @@
     }
 }
 
+.headerLogo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
 .headerLogo img {
     width: 130px;
 }
 
 .nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
 
+.nav div a{
+    font-family: "Inter";
+    color: #1D6FB6;
+    font-weight: 700;
 }

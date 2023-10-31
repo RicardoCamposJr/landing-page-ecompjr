@@ -9,17 +9,17 @@ export default function Header() {
     return (
         <div className={style.header}>
             {/* ícone do Font Awesome */}
-            <a href="https://www.instagram.com/ecompjr/">
+            <a href="https://www.instagram.com/ecompjr/" className={style.flex}>
                 <FontAwesomeIcon icon={faInstagram} className={style.icon} />
             </a>
             <div className={style.headerLogo}>
                 <img src= {nameLogo} alt="Logo da EcompJr" />
             </div>
-            <div className="nav">
-                <a href= {style.header}>Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contato</a>
+            <div className={style.nav}>
+                <div><a href= {style.header}>Início</a></div>
+                <div><a href="#">Sobre</a></div>
+                <div><a href="#">Serviços</a></div>
+                <div><a href="#">Contato</a></div>
             </div>
         </div>
     )

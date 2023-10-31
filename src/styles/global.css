@@ -2,3 +2,7 @@ body {
     background-color: #222020;
     margin: 20px;
 }
+
+a {
+    text-decoration: none;
+}
