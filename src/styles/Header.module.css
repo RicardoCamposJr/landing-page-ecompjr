@@ -53,3 +53,11 @@
     color: #1D6FB6;
     font-weight: 700;
 }
+
+.nav div a:hover {
+    color: aliceblue;
+}
+
+.nav div:hover {
+    animation: translateY 0.8s infinite alternate;
+}
