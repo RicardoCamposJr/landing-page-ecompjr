@@ -1,14 +1,33 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .icon {
-
+    color: #1D6FB6;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
-.header-logo {
+.icon:hover {
+    animation: translateY 0.8s infinite alternate;
+    color: aliceblue;
+}
 
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+.headerLogo img {
+    width: 130px;
 }
 
 .nav {
