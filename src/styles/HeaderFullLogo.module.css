@@ -41,6 +41,22 @@
     display: flex;
 }
 
+.descriptionConfiguration div h1:hover {
+    cursor:context-menu;
+    animation: translateY 10s infinite alternate;
+    color: aliceblue;   
+}
+
+/* Animação no eixo y: */
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
 .descriptionP {
     margin-left: 10px;
 }
