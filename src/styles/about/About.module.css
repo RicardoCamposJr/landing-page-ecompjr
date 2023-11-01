@@ -1,5 +1,9 @@
 .aboutContainer {
     display: flex;
+    flex-direction: column;
     background-color: #1D6FB6;
 }
 
+.descriptionArea {
+
+}

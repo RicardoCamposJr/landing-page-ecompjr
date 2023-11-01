@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import style from "../../styles/Header/HeaderFullLogo.module.css"
 
 export default function TextDescription (props) {
