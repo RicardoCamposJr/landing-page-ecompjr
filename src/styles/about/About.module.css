@@ -12,18 +12,45 @@
 }
 
 .descriptionText {
+    background-color: #222020;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
     width: 350px;
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: solid 1px;
 }
+
+.descriptionText:hover {
+    background-color: #2A3E85;
+    animation: translateY 10s alternate infinite;
+    border: solid 1px aliceblue;
+}
+
+
+@keyframes translateY {
+    from {
+        
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+
 
 .descriptionText p {
     font-size: 18px;
-    color: aliceblue;
+    color: rgb(228, 231, 234);
     font-family: 'Inter';
     font-weight: 550;
     text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }

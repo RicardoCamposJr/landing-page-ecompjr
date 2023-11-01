@@ -8,3 +8,7 @@
     width: 500px;
     height: 300px;
 }
+
+.slideImage:hover {
+    cursor: grab;
+}
