@@ -20,6 +20,7 @@
     color: aliceblue;
 }
 
+/* Animação no eixo y: */
 @keyframes translateY {
     from {
         transform: translateY(0) scale(1);
