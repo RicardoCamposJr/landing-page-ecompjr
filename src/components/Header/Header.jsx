@@ -1,4 +1,4 @@
-import style from "../../styles/Header.module.css";
+import style from "../../styles/header/Header.module.css";
 import nameLogo from "../../assets/name-logo.png";
 // Import do componente do Font Awesome:
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

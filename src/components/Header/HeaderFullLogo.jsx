@@ -1,5 +1,5 @@
 import fullLogo from "../../assets/full-logo.png"
-import style from "../../styles/HeaderFullLogo.module.css"
+import style from "../../styles/header/HeaderFullLogo.module.css"
 import TextDescription from "./TextDescription"
 
 export default function HeaderFullLogo() {

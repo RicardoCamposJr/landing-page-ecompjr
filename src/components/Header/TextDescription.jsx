@@ -1,4 +1,4 @@
-import style from "../../styles/HeaderFullLogo.module.css"
+import style from "../../styles/Header/HeaderFullLogo.module.css"
 
 export default function TextDescription (props) {
     return (
