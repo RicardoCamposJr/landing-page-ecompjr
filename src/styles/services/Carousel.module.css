@@ -18,3 +18,16 @@
     height: 500px;
     object-fit: cover;
 }
+
+.carouselImage:hover {
+    animation: translateY 2s infinite alternate;
+}
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}

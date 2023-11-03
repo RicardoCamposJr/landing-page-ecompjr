@@ -1,6 +1,6 @@
 import style from "../../styles/about/About.module.css"
 import Title from "../commom-components/Title"
-import image1 from "../../assets/insta1.jpg"
+import image1 from "../../assets/timeecomp.jpeg"
 import image2 from "../../assets/insta2.jpg"
 import image3 from "../../assets/insta3.jpg"
 import Slider from "./Slider"

@@ -29,7 +29,7 @@
     margin-left: 40px;
 }
 
-.description div h1 {
+.description div h1 a{
     margin: 0;
     font-family: 'Inter';
     font-weight: 600;
@@ -37,12 +37,16 @@
     color: #1D6FB6;
 }
 
+.description div h1 {
+    margin: 0;
+}
+
 .descriptionConfiguration {
     display: flex;
 }
 
-.descriptionConfiguration div h1:hover {
-    cursor:context-menu;
+.descriptionConfiguration div h1 a:hover {
+    cursor:pointer;
     animation: translateY 10s infinite alternate;
     color: aliceblue;   
 }
