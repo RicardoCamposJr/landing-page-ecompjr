@@ -5,7 +5,7 @@ import {Swiper, SwiperSlide} from "swiper/react"
 export default function Slider(props) {
     return (
         <div className={style.slider}>
-            <Swiper 
+            <Swiper
                 slidesPerView={1}
                 pagination={ {clickable: true} }
                 navigation

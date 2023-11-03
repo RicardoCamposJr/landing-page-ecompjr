@@ -9,6 +9,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import "swiper/css/scrollbar"
+import 'swiper/css/effect-cards';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

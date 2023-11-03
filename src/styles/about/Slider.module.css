@@ -1,14 +1,14 @@
 .slider {
-    width: 500px;
-    margin: 50px;
+  width: 500px;
+  margin: 50px;
 }
 
 .slideImage {
-    border-radius: 20px;
-    width: 500px;
-    height: 300px;
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
 }
 
 .slideImage:hover {
-    cursor: grab;
+  cursor: grab;
 }
