@@ -1,8 +1,28 @@
 .mvv {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A3E85;
 }
 
 .cards {
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-bottom: 100px;
     width: 400px;
     height: 400px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.description h1 {
+    font-family: 'Playpen Sans';
+    font-size: 70px;
+    color: aliceblue;
 }

@@ -4,15 +4,12 @@
     background-color: #1D6FB6;
 }
 
-
-
 .descriptionArea {
     display: flex;
     justify-content: center;
 }
 
 .descriptionText {
-    
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -24,13 +21,6 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-/* .descriptionText:hover {
-    background-color: #2A3E85;
-    animation: translateY 10s alternate infinite;
-    border: solid 1px aliceblue;
-} */
-
 
 @keyframes translateY {
     from {
@@ -47,7 +37,7 @@
 .descriptionText p {
     font-size: 18px;
     color: rgb(228, 231, 234);
-    font-family: 'Inter';
+    font-family: 'Playpen Sans';
     font-weight: 590;
     text-align: justify;
     margin-bottom: 0px;
