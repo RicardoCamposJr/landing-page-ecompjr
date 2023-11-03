@@ -19,7 +19,7 @@ export default function Cards( props ) {
                 } else {
                     props.setDescription("Valores")
                 }
-            }}
+            }}  
         >
             <SwiperSlide className={style.cardContainer}>
                 <div className={style.cardImage}>

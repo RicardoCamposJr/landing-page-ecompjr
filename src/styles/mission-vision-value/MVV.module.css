@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2A3E85;
+    background-color: #222020;
 }
 
 .cards {
@@ -26,3 +26,4 @@
     font-size: 70px;
     color: aliceblue;
 }
+
