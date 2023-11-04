@@ -6,7 +6,7 @@ import Icon from "../commom-components/Icon";
 
 export default function Header() {
   return (
-    <div className={style.header}>
+    <div className={style.header} id="home">
       {/* ícone do Font Awesome */}
       <Icon icon={faInstagram} a="https://www.instagram.com/ecompjr/" />
       <div className={style.headerLogo}>
