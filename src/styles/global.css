@@ -1,5 +1,8 @@
 body {
     background-color: #222020;
+}
+
+html {
     scroll-behavior: smooth;
 }
 

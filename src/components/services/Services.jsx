@@ -10,7 +10,7 @@ import image5 from "../../assets/img7.jpg"
 
 export default function Services() {
     return (
-        <div className={style.services}>
+        <div className={style.services} id="serviceId">
             <Title text="Conheça nossos serviços!" />
             <Carousel 
                 img1={image1}

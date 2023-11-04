@@ -7,7 +7,7 @@ import Slider from "./Slider"
 
 export default function About() {
     return (
-        <div className={style.aboutContainer}>
+        <div className={style.aboutContainer} id="aboutId">
             <Title text="Sobre a EcompJr..." />
             <div className={style.descriptionArea}>
                 <Slider 

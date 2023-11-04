@@ -5,7 +5,7 @@ import fullLogo from "../../assets/full-logo.png"
 
 export default function Contact () {
     return (
-        <div className={style.contactContainer}>
+        <div className={style.contactContainer} id="contactId">
             <Title text="Contate-nos!"/>
             <div className={style.contactArea}>
                 <div className={style.contact}>
