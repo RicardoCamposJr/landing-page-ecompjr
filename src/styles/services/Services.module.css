@@ -1,3 +1,11 @@
 .services {
     padding-bottom: 200px;
+    background-color: #1D6FB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
 }

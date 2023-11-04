@@ -1,4 +1,4 @@
-import style from "../../styles/Title.module.css"
+import style from "../../styles/commom-components/Title.module.css"
 
 export default function Title(props) {
     return (

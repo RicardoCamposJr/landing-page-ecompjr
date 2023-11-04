@@ -11,7 +11,7 @@ import image5 from "../../assets/img7.jpg"
 export default function Services() {
     return (
         <div className={style.services}>
-            <Title text="Nossos serviços são..." />
+            <Title text="Conheça nossos serviços!" />
             <Carousel 
                 img1={image1}
                 img2={image2}

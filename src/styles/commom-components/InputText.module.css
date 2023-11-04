@@ -1,0 +1,14 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-family: 'Sometype Mono';
+    color: aliceblue;
+}
+
+input {
+    background-color: #d5d5d5;
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 5px;
+}

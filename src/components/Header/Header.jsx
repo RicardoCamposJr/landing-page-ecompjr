@@ -30,6 +30,9 @@ export default function Header() {
         <div>
           <a href="#">Contato</a>
         </div>
+        <div>
+          <a href="#">Login</a>
+        </div>
       </div>
     </div>
   );

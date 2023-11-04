@@ -15,7 +15,6 @@ export default function Carousel( props ) {
                 clickable: true,
                 }}
                 modules={[FreeMode, Pagination]}
-                className="mySwiper"
             >
                 <SwiperSlide className={style.carouselSlide}>
                     <img src={props.img1} className={style.carouselImage} />
