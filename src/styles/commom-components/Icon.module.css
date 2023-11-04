@@ -1,0 +1,24 @@
+.flex {
+    flex: 1;
+}
+
+.icon {
+    color: #1D6FB6;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon:hover {
+    animation: translateY 0.8s infinite alternate;
+    color: aliceblue;
+}
+
+/* Animação no eixo y: */
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
