@@ -3,21 +3,12 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
-
-.flex {
-    flex: 1;
-}
-
-.icon {
-    color: #1D6FB6;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.icon:hover {
-    animation: translateY 0.8s infinite alternate;
-    color: aliceblue;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: #2A3E85;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* Animação no eixo y: */
@@ -51,8 +42,8 @@
 
 .nav div a{
     font-family: "Inter";
-    color: #1D6FB6;
-    font-weight: 700;
+    color: #2690ee;
+    font-weight: 800;
 }
 
 .nav div a:hover {
