@@ -1,0 +1,58 @@
+
+
+.container {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Sometype Mono';
+    color: rgb(238, 242, 245);
+}
+
+.box {
+    width: 25vw;
+    height: 45vh;
+    background-color: #1D6FB6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    width: 85%;
+    height: 85%;
+}
+
+.inputs h2 {
+    text-align: center;
+    font-family: 'Sometype Mono';
+    color: rgb(238, 242, 245);
+}
+
+#submit {
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Sometype Mono';
+    font-weight: 600;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #2A3E85;
+    color: #d5d5d5;
+    font-weight: 600;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}

@@ -1,13 +1,22 @@
 import { createBrowserRouter } from "react-router-dom"
-import Header from "../components/header/Header"
-import About from "../components/About/About"
 import Home from "../pages/Home"
+import Login from "../pages/Login"
+import Navbar from "../components/header/Navbar"
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />,
+        element: <Navbar />,
+        children: [{
+            index: true,
+            element: <Home />
+        }]  
     },
+    {
+        path: "/login",
+        element: <Login />
+    }
+    
 ])
 
 export default router
