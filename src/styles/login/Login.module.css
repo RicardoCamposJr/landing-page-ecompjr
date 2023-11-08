@@ -25,9 +25,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.boxSignUp {
+    background-color: #1D6FB6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 450px;
 }
 
 .inputs {
+    position: absolute;
     width: 85%;
     height: 85%;
 }
@@ -55,4 +68,25 @@
 #btn{
     display: flex;
     justify-content: center;
+}
+
+#signUp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Sometype Mono';
+}
+
+#signUp a {
+    color: #d5d5d5;
+}
+
+#signUp a:hover {
+    cursor: pointer;
+    color: #2A3E85;
+    font-weight: 600;
+}
+
+#signUp span {
+    margin-right: 5px;
 }

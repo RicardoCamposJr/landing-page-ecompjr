@@ -11,6 +11,10 @@
     border-bottom-right-radius: 8px;
 }
 
+.headerAlt {
+
+}
+
 /* Animação no eixo y: */
 @keyframes translateY {
     from {
@@ -28,8 +32,19 @@
     align-items: center;
 }
 
+.headerLogoAlt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .headerLogo img {
     width: 130px;
+}
+
+.headerLogoAlt img{
+    width: 130px;
+    margin-right: 20px;
 }
 
 .nav {

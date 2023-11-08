@@ -9,8 +9,8 @@ export default function LoginNav() {
     return (
         <div className={style.header} id="homeId">
             {/* ícone do Font Awesome */}
-            <Icon icon={faArrowLeft} a="/" target=""/>
-            <div className={style.headerLogo}>
+            <Icon icon={faArrowLeft} a="/"/>
+            <div className={style.headerLogoAlt}>
                 <img src={nameLogo} alt="Logo da EcompJr" />
             </div>
         </div>

@@ -9,15 +9,22 @@ export default function Login() {
         <>
             <LoginNav />
             <div className={style.container}>
-                <h1>Área do administrador!</h1>
-                <div className={style.box}>
+                <h1>Bem vindo!</h1>
+                <div className={style.boxSignUp}>
                     <div className={style.inputs}>
-                        <h2>Login</h2>
+                        <h2>Cadastro</h2>
                         <form action="" method="post" id={style.form}>
                             <ImputText 
                                 type="text"
-                                label="Usuário: " 
-                                htmlFor="user"
+                                label="Nome: "
+                                htmlFor="userName"
+                                
+                            />
+                            <ImputText 
+                                type="text"
+                                label="Sobrenome: " 
+                                htmlFor="userLastName"
+                                
                             />
                             <ImputText 
                                 type="password"
@@ -28,8 +35,8 @@ export default function Login() {
                                 <input type="submit" value="Entrar" id={style.submit} />
                             </div>
                             <div id={style.signUp}>
-                                <span>Cadastre-se</span>
-                                <Link to="/signUp">aqui!</Link>
+                                <span>Já possui cadastro? Clique</span>
+                                <Link to="/login">aqui!</Link>
                             </div>
                         </form>
                     </div>
