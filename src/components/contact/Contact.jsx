@@ -1,5 +1,5 @@
 import style from "../../styles/contact/Contact.module.css"
-import Input from "../commom-components/InputText"
+import InputText from "../commom-components/InputText"
 import Title from "../commom-components/Title"
 import fullLogo from "../../assets/full-logo.png"
 
@@ -9,21 +9,24 @@ export default function Contact () {
             <Title text="Contate-nos!"/>
             <div className={style.contactArea}>
                 <div className={style.contact}>
-                    <form action="" method="post" className={style.formContact}>
-                        <Input 
+                    <form action="" 
+                        method="post" 
+                        className={style.formContact}
+                        >
+                        <InputText 
                             type="text"
                             label="Nome:"
                             background="Informe seu nome:"
                             htmlFor="name"
                         />
-                        <Input 
+                        <InputText 
                             label="E-mail:"
                             background="Informe seu email:"
                             htmlFor="email"
                         />
                         <div className={style.descriptionArea}>
                             <label htmlFor="description">Descrição do serviço:</label>
-                            <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Descreva seu serviço aqui:" className={style.description}></textarea>
+                            <textarea id="description" name="description" rows="4" cols="50" placeholder="Descreva seu serviço aqui:" className={style.description}></textarea>
                         </div>
                         <input type="submit" value="Enviar" id={style.submit} />
                     </form>

@@ -1,0 +1,32 @@
+#message {
+    color: aliceblue;
+    margin: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Sometype Mono';
+}
+
+#btn {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+#btn button {
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 40px;
+    background-color: #1D6FB6;
+    border-radius: 8px;
+    font-family: 'Sometype Mono';
+    font-weight: 500;
+    color: aliceblue;
+}
+
+#btn button:hover {
+    cursor: pointer;
+    background-color: #d5d5d5;
+    color: #1D6FB6;
+    font-weight: 600;
+}

@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#nameUser {
+    margin: 40px;
+}
+
+#nameUser h1, h3 {
+    
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Sometype Mono';
+    font-weight: 300;
+}
+
+.messages {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}

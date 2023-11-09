@@ -18,13 +18,16 @@ export default function Login() {
                                 type="text"
                                 label="Nome: "
                                 htmlFor="userName"
-                                
                             />
                             <ImputText 
                                 type="text"
                                 label="Sobrenome: " 
                                 htmlFor="userLastName"
-                                
+                            />
+                            <ImputText 
+                                type="text"
+                                label="Usuário: " 
+                                htmlFor="userNickName"
                             />
                             <ImputText 
                                 type="password"
@@ -32,7 +35,7 @@ export default function Login() {
                                 htmlFor="user"
                             />
                             <div id={style.btn}>
-                                <input type="submit" value="Entrar" id={style.submit} />
+                                <input type="submit" value="Cadastrar" id={style.submit} />
                             </div>
                             <div id={style.signUp}>
                                 <span>Já possui cadastro? Clique</span>
