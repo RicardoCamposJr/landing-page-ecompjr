@@ -6,6 +6,7 @@ import SignUp from "../pages/SignUp"
 import Messages from "../pages/Messages"
 
 const router = createBrowserRouter([
+    
     {
         path: "/",
         element: <Navbar />,
