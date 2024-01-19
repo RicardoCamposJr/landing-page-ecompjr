@@ -3,7 +3,6 @@ import nameLogo from "../../assets/name-logo.png";
 // Import do ícone de instagram do Font Awesome:
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Icon from "../commom-components/Icon";
-import { Link } from "react-router-dom";
 
 export default function LoginNav() {
     return (
